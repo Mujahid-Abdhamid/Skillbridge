@@ -1,0 +1,342 @@
+/* SECTION HERO */
+
+.hero-section {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6.4rem 9.6rem;
+  text-align: center;
+
+  position: relative;
+}
+
+.sub-textbox {
+  display: inline-block;
+  border-radius: var(--br-5xs);
+  background-color: var(--white-99);
+  border: 1px solid var(--white-95);
+  padding: 1.2rem 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.sub-textbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.hero-icon {
+  border-radius: var(--br-7xs);
+  background-color: var(--orange-95);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  z-index: 0;
+}
+
+.heading-primary {
+  font-size: 3.8rem;
+  color: var(--color-darkorange);
+}
+
+.your-creative-potential {
+  color: #1a1a1a;
+}
+
+.abstract-line-icon {
+  width: 3.9rem;
+  position: absolute;
+  left: 21.5rem;
+  top: 4rem;
+}
+
+.hero-description {
+  font-size: 2.8rem;
+  line-height: 2;
+  color: var(--grey-15);
+  font-weight: 500;
+}
+
+.sub-hero-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  color: var(--grey-15);
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: var(--br-7xs);
+  padding: var(--padding-sm) var(--padding-xl);
+}
+
+.btn-filled:link,
+.btn-filled:visited {
+  color: var(--absolute-white);
+  background-color: var(--color-darkorange);
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: var(--absolute-white);
+  border: 1px solid var(--white-95);
+  color: var(--grey-15);
+}
+
+/* FEATURED SECTION */
+
+.featured-section {
+  max-width: 120rem;
+  margin: 0 auto 3.2rem;
+}
+
+.featured-container {
+  border-radius: var(--br-5xs);
+  background-color: var(--white-99);
+  border: 1px solid var(--white-95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8rem;
+  padding: 3.2rem;
+}
+
+.featured-box {
+  flex: 1;
+}
+
+.line {
+  align-self: stretch;
+  width: 0.1rem;
+  border-right: 3px solid var(--white-95);
+  box-sizing: border-box;
+}
+
+/* HERO IMAGE */
+
+.hero-imgbox {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 9.6rem 4.8rem 0;
+}
+
+.hero-img {
+  background-image: url(../Assets/Hero-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64.9rem;
+}
+
+/* SECTION BENEFITS */
+
+.benefits-section {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 9.6rem 4.8rem 0;
+}
+
+.benefits-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.benefit-card {
+  display: flex;
+  border-radius: var(--br-3xs);
+  background-color: var(--absolute-white);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-21xl);
+  gap: 4rem 0;
+}
+
+.card-number {
+  font-size: var(--font-size-41xl);
+}
+
+.card-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+.card-text {
+  color: var(--grey-20);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* SECTION OUR COURSES */
+
+.our-courses-section {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 9.6rem 4.8rem 0;
+}
+
+.our-courses-card__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+.our-courses-card {
+  background-color: var(--absolute-white);
+  border-radius: var(--br-3xs);
+  padding: var(--padding-21xl);
+}
+
+.our-courses-imgbox {
+  margin-bottom: 3rem;
+}
+
+.our-courses-img {
+  width: 100%;
+}
+
+.our-courses-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.our-courses-subtextbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card-duration {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.duration,
+.level {
+  font-size: 1.6rem;
+  border-radius: var(--br-7xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--white-95);
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+
+.author {
+  color: var(--grey-15);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.heading-tertiary {
+  font-size: var(--font-size-xl);
+  color: var(--grey-15);
+}
+
+.text-secondary {
+  color: var(--grey-20);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.card-btn:link,
+.card-btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.6rem;
+  border: 1px solid var(--white-95);
+  border-radius: var(--br-7xs);
+  background-color: var(--white-97);
+  padding: var(--padding-sm) var(--padding-5xl);
+  text-align: center;
+  color: var(--grey-15);
+}
+
+/* SECTION TESTIMONIALS */
+
+.testimonials-section {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 9.6rem 4.8rem 0;
+}
+
+.testimonials-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+.testimonial-card {
+  border-radius: var(--br-3xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--white-95);
+  padding: var(--padding-21xl);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial-card-textbox {
+  margin-bottom: 2rem;
+}
+
+.testimonial-card-textdescription {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.testimonial-card-info {
+  background-color: var(--white-99);
+  padding: var(--padding-5xl) var(--padding-21xl);
+  color: var(--grey-20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial-card-about {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonial-card-img {
+  width: 5rem;
+  border-radius: var(--br-7xs);
+  height: 5rem;
+  object-fit: cover;
+}
+
+.testimonial-card-name {
+  font-size: 1.6rem;
+}
+
+.testimonial-card-btn:link,
+.testimonial-card-btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: var(--br-7xs);
+  background-color: var(--white-97);
+  border: 1px solid var(--white-95);
+  padding: var(--padding-sm) var(--padding-base);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--grey-15);
+}

@@ -1,0 +1,172 @@
+/* MAIN */
+
+.section-web-design,
+.section-ui-ux,
+.section-mobile-app,
+.section-graphic-design,
+.section-frontend-dev {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 4.8rem 6.4rem;
+}
+
+/* STYLNG THE CARD */
+
+.card-container,
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 4rem;
+  box-sizing: border-box;
+  gap: 4rem 0;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem 0;
+}
+
+.card-textbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  flex: 1;
+}
+
+.card-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.text-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #59595a;
+  width: min(100%, 100rem);
+}
+
+.card-btn:link,
+.card-btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #59595a;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #fcfcfd;
+  border-radius: 6px;
+  border: 1px solid #f1f1f3;
+  justify-content: center;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.card-imgbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+.card-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  color: #59595a;
+}
+
+.card-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-duration {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-info {
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid #f1f1f3;
+  overflow: hidden;
+  font-size: 1.8rem;
+}
+
+.sub-container {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #f1f1f3;
+  padding: 1rem 1.2rem;
+}
+
+.card-info-heading {
+  border-bottom: 1px solid #f1f1f3;
+  padding: 2rem 2.4rem;
+}
+
+.card-info-subheading {
+  font-size: 2.4rem;
+}
+
+.sub-container-text {
+  font-size: 1.6rem;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #262626;
+}
+
+.card-info-heading {
+  border-bottom: 1px solid #f1f1f3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2rem 2.8rem;
+}
+
+.courses-sub-card {
+  border-radius: 1.2rem;
+  background-color: #fff;
+  display: flex;
+  padding: 3rem 2.8rem;
+  gap: 4rem;
+}
+
+.courses-sub-card-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.line {
+  width: 0.1rem;
+  border-right: 2px solid #f1f1f3;
+  align-self: stretch;
+}
+
+.number {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.courses-sub-card-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--grey-20);
+}

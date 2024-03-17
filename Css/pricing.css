@@ -1,0 +1,26 @@
+.pricing-btns-container {
+  text-align: center;
+  margin-bottom: 4.8rem;
+  /* width: fit-content; */
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-btns {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  padding: var(--padding-xs);
+  color: var(--absolute-white);
+  display: flex;
+  align-items: center;
+}
+
+.pricing-btn-outlined {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--grey-15);
+  padding: var(--padding-sm) var(--padding-base);
+}
